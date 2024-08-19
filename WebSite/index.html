@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANVI-GROUP - Usługi hydrauliczne</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-image: url('Images/chertezhi.jpg');
+            background-size: cover;
+            background-position:center;
+            color: white;
+            padding:50px 20px;
+            text-align:center;
+        }
+        h1{
+            font-size: 3em;
+            margin: 0;
+        }
+        p.subtitle{
+            font-size: 1.5em;
+            margin: 0;
+            color: black;
+            text-shadow:
+                -1px    -1px    0   #000,
+                 1px    -1px    0   #000,
+                -1px     1px    0   #000,
+                 1px     1px    0   #000;
+        }
+        nav{
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align:center;
+        }
+
+            nav a {
+                color: white;
+                margin: 0 15px;
+                text-decoration: none;
+            }
+
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            flex-basis: 45%;
+        }
+
+        .contact-info {
+            background-color: #e7e7e7;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 50px;
+            position: relative;
+            z-index: 1;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            z-index: 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ANVI-GROUP</h1>
+        <p>Profesjonalne usługi hydrauliczne i instalacyjne</p>
+    </header>
+
+    <nav>
+        <a href="#services">Usługi</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <div class="container">
+        <section id="services" class="services">
+            <div class="service-item">
+                <h2>Instalacje wodno-kanalizacyjne</h2>
+                <img src="Images/photo.jpg" alt="Instalacje wodno-kanalizacyjne">
+                <p>Oferujemy kompleksowe usługi związane z instalacjami wodno-kanalizacyjnymi, w tym montaż, naprawy oraz modernizacje instalacji.</p>
+            </div>
+            <div class="service-item">
+                <h2>Systemy grzewcze</h2>
+                <img src="Images/photo_.jpg" alt="Instalacje grzewcze">
+                <p>Zajmujemy się instalacją oraz serwisem nowoczesnych systemów grzewczych, zapewniających komfort cieplny w Twoim domu.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-info">
+            <h2>Kontakt</h2>
+            <p>Adres: Williama Heerleina Lindleya 16</p>
+            <p>Telefon: <a href="tel:+48451279292">+48 451 279 292</a></p>
+            <p>Email: <a href="mailto:hydraulic@anvil-group.com">hydraulic@anvil-group.com</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 ANVI-GROUP. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
